@@ -1,0 +1,16 @@
+---
+apiVersion: v1
+kind: flag-configuration
+
+flag: default.ask
+
+enabled: false
+
+defaultValue: false
+
+conditions:
+  - allOf:
+      - flag:
+          name: default.show
+          value: "true"
+    flagValue: true

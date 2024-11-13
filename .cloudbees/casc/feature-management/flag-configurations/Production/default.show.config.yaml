@@ -1,0 +1,17 @@
+---
+apiVersion: v1
+kind: flag-configuration
+
+flag: default.show
+
+enabled: false
+
+defaultValue: - percentage: 50
+  from: 2024-09-10T17:59:00Z
+- percentage: 75
+  from: 2024-09-17T17:00:00Z
+- percentage: 100
+  from: 2024-09-24T17:00:00Z
+
+conditions:
+  []

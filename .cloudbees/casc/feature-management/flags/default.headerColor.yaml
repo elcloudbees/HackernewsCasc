@@ -1,0 +1,15 @@
+---
+apiVersion: v1
+kind: flag
+
+flag: default.headerColor
+flagType: string
+description: 
+labels:
+
+availableValues:
+  - is-dark
+  - is-primary
+  - is-white
+
+isPermanent: false

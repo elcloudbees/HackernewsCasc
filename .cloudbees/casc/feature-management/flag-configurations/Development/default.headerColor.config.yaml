@@ -1,0 +1,12 @@
+---
+apiVersion: v1
+kind: flag-configuration
+
+flag: default.headerColor
+
+enabled: true
+
+defaultValue: is-dark
+
+conditions:
+  []

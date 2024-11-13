@@ -1,0 +1,14 @@
+---
+apiVersion: v1
+kind: flag
+
+flag: default.show
+flagType: boolean
+description: 
+labels:
+
+availableValues:
+  - false
+  - true
+
+isPermanent: false

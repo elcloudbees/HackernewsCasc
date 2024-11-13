@@ -1,0 +1,7 @@
+---
+apiVersion: v1
+kind: flag-properties
+
+name: company
+type: String
+description: ""
